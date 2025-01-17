@@ -1,0 +1,96 @@
+<!-- Create Json object to string -->
+
+<!-- <!DOCTYPE html>
+<html>
+
+<body>
+
+  <h2>Create a JSON string from a JavaScript object.</h2>
+  <p id="demo"></p>
+
+  <script>
+    const obj = { name: "John", age: 30, city: "New York" };
+    const myJSON = JSON.stringify(obj);
+    document.getElementById("demo").innerHTML = myJSON;
+  </script>
+
+</body>
+
+</html> -->
+
+<!-- Json Array to string conversion -->
+<!DOCTYPE html>
+<html>
+
+<body>
+
+  <h2>Create a JSON string from a JavaScript array.</h2>
+  <p id="demo"></p>
+
+  <script>
+    const array = ["John", "Peter", "Sally", "Jane"];
+    const myJSON = JSON.stringify(array);
+    document.getElementById("demo").innerHTML = myJSON;
+  </script>
+
+</body>
+
+</html>
+
+
+<!-- STORE AND RETRIVE DATA FROM JSON -->
+<!-- <!DOCTYPE html>
+<html>
+
+<body>
+
+  <h2>Store and retrieve data from local storage.</h2>
+  <p id="demo"></p>
+
+  <script>
+    // Storing data:
+    const myObj = { name: "John", age: 31, city: "New York" };
+    const myJSON = JSON.stringify(myObj);
+    localStorage.setItem("testJSON", myJSON);
+
+    // Retrieving data:
+    let text = localStorage.getItem("testJSON");
+    let obj = JSON.parse(text);
+    document.getElementById("demo").innerHTML = obj.name;
+  </script>
+
+</body>
+
+</html> -->
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  <script>
+    $(document).ready(function () {
+      $("button").click(function () {
+        $("p").hide("slow", function () {
+          alert("The paragraph is now hidden");
+        });
+      });
+    });
+  </script>
+</head>
+
+<body>
+
+  <button>Hide</button>
+
+  <p>TLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+    standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a
+    type specimen book. It has survived not only five centuries</p>
+
+</body>
+
+</html>
